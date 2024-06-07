@@ -579,3 +579,11 @@ func (l *League) MatchResult(
 	l.Wins[second_team_name] = second_team_score
 }
 ```
+
+## Some questions to ask the book club about this chapter
+
+* pointer/value receiver confusion in exer 02
+* lack of constructors in structs since Golang not OOO
+	* corresponding need to initialize things like maps that are part of structs
+* dependency injection (and at Datadog)
+	* no references to wire (i.e. "InitializeEvent") in dd-go
