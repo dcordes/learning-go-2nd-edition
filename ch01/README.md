@@ -1,4 +1,6 @@
-Some usage notes:
+# Chapter 01
+
+## Installing the Go Tools / Your First Go Program
 
 * for a new program
   * `go mod init hello_world`

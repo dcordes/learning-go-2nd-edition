@@ -1,3 +1,5 @@
+# Chapter 06
+
 * try to avoid passing pointers to a function
 * a map in go is implemented as a pointer to a struct; so if you pass a map to a function you can actually modify the map in the function
 * rather than pass a map around, use a struct
